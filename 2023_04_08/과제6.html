@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자 조정</title>
+    <style>
+        h3{font-family: "맑음고딕" "돋움" sans-serif; color: red; text-shadow: 3px 3px 4px grey;}
+        h3::after{content:" (@sblim)";font-size: 10px; text-shadow: 1px 1px 12px lime;}
+        p {font-family: "Tiem new roman" "돋움" serif; line-height: 10px;}
+        #first{text-align: left;letter-spacing: 2pt; word-spacing: 8pt;}
+        #second{text-align: left;text-indent: 2em;letter-spacing: -2pt; word-spacing: 2pt;}
+        #third{text-align: right;}
+        #fourth{text-align: center;}
+        #under{text-decoration: underline;}
+        #over{text-decoration: overline;}
+        #thru{text-decoration: line-through;}
+        #cap{text-transform: capitalize;}
+        #upper{text-transform: uppercase;}
+        #lower{text-transform: lowercase;}
+    </style>
+</head>
+<body>
+<h3><strong>CSS</strong>문자관련 속성</h3>
+<p id="first">왼쪽정렬, 문자간격 3pt, 단어간격 8pt</p>
+<p id="second">왼쪽정렬, 들여쓰기 2글자, 문자간격 -2pt, 단어간격 2pt</p>
+<p id="third">오른쪽정렬, text-decoration : <span id="under">underline</span>,
+    <span id="over">overline</span>, <span id="thru">line-through</span> </p>
+    <p id="fourth">가운데 정렬, text-transform : <span id="cap">capitalize</span>, 
+    <span id="upper">uppercase</span>, <span id="lower">lowercase</span></p>
+</p>
+</body>
+</html>

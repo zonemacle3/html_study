@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{color: red;text-align: left;background-color: lightgreen;}
+        h3::after{content:" (@sblim)";font-size: 15px;}
+        tr{text-align: left;}
+        #first{background-image: url(flower.jpg);background-repeat: repeat-x;} 
+        #second{background-image: url(flower.jpg);background-repeat: repeat;}
+        #third{background-image: url(flower.jpg);background-repeat: no-repeat;background-position: center bottom;}
+    </style>
+</head>
+<body>
+    <h3>css 배경관련 속성</h3>
+    <table border="1">
+        <tr>
+            <td id="first">배경 이미지 
+                <li>url(파일경로)</li> <br>
+                <li>background-repeat<br>=>repeat-x</li>
+            </td>
+            <td id="second">배경이미지
+                <li>url(파일경로)</li> <br> 
+                <li>background-repeat <br>=>repeat</li>
+            </td>
+            <td id="third">
+                배경이미지
+                <li>backgrond-repeat : <br> => no-repeat</li> <br>
+                <li>background-position : <br> => center bottom</li>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
